@@ -13,3 +13,5 @@
 p4 set P4IGNORE=.p4ignore
 
 [p4ignore文件参考这个链接](https://gist.github.com/stungeye/28e116071c5a7052765d7752968ec56b)
+
+[P4IGNORE的语法可以参考这个链接](https://www.perforce.com/manuals/cmdref/Content/CmdRef/P4IGNORE.html)

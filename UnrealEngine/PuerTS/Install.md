@@ -17,8 +17,17 @@ Clone PuerTS GitHub项目，
 
 去[NodeJS官网](https://nodejs.org/en)下载安装一个LTS版本
 
+下面几步参考了这篇文章
+[fastest-way-to-start-a-typescript-project](https://www.mailslurp.com/blog/fastest-way-to-start-a-typescript-project/)
+
 ### npm init --yes
 
 在项目根目录下，执行npm init --yes，生成package.json文件
 
-[fastest-way-to-start-a-typescript-project](https://www.mailslurp.com/blog/fastest-way-to-start-a-typescript-project/)
+### npm i -D typescript ts-node
+
+然后执行npm i -D typescript ts-node，安装typescript和ts-node，安装完毕之后，会在项目根目录下生成node_modules目录
+
+### .\node_modules\.bin\tsc.cmd --init
+
+在Windows下面，执行.\node_modules\.bin\tsc.cmd --init，生成tsconfig.json文件

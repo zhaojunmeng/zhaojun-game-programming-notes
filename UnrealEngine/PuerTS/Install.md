@@ -11,7 +11,11 @@ Clone PuerTS GitHub项目，
 再下载Build好的官方v8版本，注意，解压后的文件夹名字，一定要是v8(不带版本号)
 [安装 PuerTS](https://puerts.github.io/docs/puerts/unreal/install)
 
-## 新建TS项目
+## 从零开始新建TS项目(不推荐这种方式)
+
+不推荐的原因是，按照官方文档[typesceript版本升级](https://puerts.github.io/docs/puerts/unreal/faq#typesceript%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7)的说法，开启继承ue类后，支持的typescript版本不高于4.8.3
+
+而下面列的方法，会设置使用最新版本的TypeScript
 
 ### 安装NodeJS
 

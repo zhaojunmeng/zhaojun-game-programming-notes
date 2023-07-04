@@ -11,6 +11,14 @@ Clone PuerTS GitHub项目，
 再下载Build好的官方v8版本，注意，解压后的文件夹名字，一定要是v8(不带版本号)
 [安装 PuerTS](https://puerts.github.io/docs/puerts/unreal/install)
 
+## 新增调用JS代码的入口
+
+参考[puerts_unreal_demo的TsGameInstace](https://github.com/chexiongsheng/puerts_unreal_demo/blob/master/Source/puerts_unreal_demo/TsGameInstance.cpp)，在项目中，增加一个继承自UGameInstance的类，并且在项目设置中，将默认的GameInstance，改为这个新建的类
+
+项目的Build.cs中，也需要依赖JsEnv模块
+
+## 新增TS代码
+
 ## 从零开始新建TS项目(不推荐这种方式)
 
 不推荐的原因是，按照官方文档[typesceript版本升级](https://puerts.github.io/docs/puerts/unreal/faq#typesceript%E7%89%88%E6%9C%AC%E5%8D%87%E7%BA%A7)的说法，开启继承ue类后，支持的typescript版本不高于4.8.3
